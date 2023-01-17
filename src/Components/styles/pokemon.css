@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.content {
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 60px;
+  text-decoration: none;
+}
+.logo img {
+  height: 100%;
+}
+.logo p {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+.container-one {
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: auto;
+  width: 320px;
+}
+#card-one {
+  position: relative;
+  width: 100%;
+  padding: 30px 20px;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.card-image {
+  display: block;
+  width: 180px;
+  max-height: 200px;
+  position: relative;
+  margin: 20px auto;
+}
+.hp {
+  width: 80px;
+  background-color: #101010;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 30px;
+  margin-left: auto;
+  font-weight: 400;
+}
+.poke-name {
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+}
+.types {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-around;
+  margin: 20px 0 15px 0;
+}
+.lista {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border-bottom: 1px solid #ccc;
+}
+.lista li {
+  position: relative;
+  width: 100%;
+  padding: 0 0 8px;
+  font-weight: 600;
+}
+.lista span {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: #436a6b;
+}
+.btn {
+  display: block;
+  cursor: pointer;
+  padding: 15px 60px;
+  font-size: 18px;
+  background-color: #101010;
+  color: #ffffff;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+}
+/* .grass{
+  background: rgb(222, 253, 224);
+}
+.poison{
+  background: rgb(152, 215, 165);
+}
+.fire{
+  background: rgb(253, 223, 223);
+}
+.water{
+  background: rgb(222, 243, 253);
+}
+.bug{
+  background: rgb(248, 213, 163);
+}
+.dark{
+  background: rgb(106, 90, 205);
+}
+.dragon{
+  background: rgb(151, 179, 230);
+}
+.electric{
+  background: rgb(252, 247, 222);
+}
+.fairy{
+  background: rgb(252, 234, 255);
+}
+.fighting{
+  background: rgb(230, 224, 212);
+}
+.flying{
+  background: rgb(245, 245, 245);
+}
+.ghost{
+  background: rgb(197, 186, 219);
+}
+.ground{
+  background: rgb(244, 231, 218);
+}
+.ice{
+  background: rgb(87, 187, 230);
+}
+.normal{
+  background: rgb(245, 245, 245);
+}
+.psychic{
+  background: rgb(234, 237, 161);
+}
+.rock{
+  background: rgb(213, 213, 212);
+}
+.steel{
+  background: rgb(164, 164, 164);
+} */

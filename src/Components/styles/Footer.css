@@ -1,0 +1,19 @@
+.footer-div{
+    width: 100%;
+    margin: 20px 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.git{
+    font-size: 30px;
+    margin-left: 5px;
+    cursor: pointer;
+}
